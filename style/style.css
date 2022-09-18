@@ -1,0 +1,32 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.fondo {
+    background-color: aqua;
+    text-align: center;
+    border-radius: 1.5em;
+
+}
+
+#valor1{
+    border-radius: 1.5em;
+    height: 3em;
+}
+
+#boton {
+    border-radius: 2em;
+    height: 3em;
+    width: 3em;
+}
+
+#valor2 {
+    border-radius: 1.5em;
+    height: 3em;
+}
+
+#valortotal{
+    border-radius: 1.5em;
+    height: 3em;
+}

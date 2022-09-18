@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>metodo input</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <input id="agregaTexto" type="text">
-    <button id="boton">xxx</button>
+    <div class="fondo">
+    <h1>ESCRIBE AQUI TU TEXTO</h1>
+    <div>valor1</div><input id="valor1" type="number" step="0.001" oninput="calcular()">
+    <div>valor2</div><input id="valor2" type="number" step="0.001" oninput="calcular()">
+    <div>total</div><input id="valortotal" type="number" step="0.001" >
+    <button id="boton">click</button>
     <script src="src/app.js"></script>
+   </div>
 </body>
 </html>

@@ -4,6 +4,9 @@ h1 {
 }
 
 .fondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: aqua;
     text-align: center;
     border-radius: 1.5em;
@@ -27,6 +30,11 @@ h1 {
 }
 
 #valortotal{
+    border: 2px solid;
     border-radius: 1.5em;
-    height: 3em;
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
 }

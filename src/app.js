@@ -1,5 +1,8 @@
 // agregando las variables del html
 const boton = document.getElementById('boton')
+const boton2 = document.getElementById('boton2')
+const boton3 = document.getElementById('boton3')
+const boton4 = document.getElementById('boton4')
 const primerValor = document.getElementById('valor1')
 const segundoValor = document.getElementById('valor2')
 const total = document.getElementById('valortotal')
@@ -26,43 +29,21 @@ function agregar()
    console.log(resultado)
    
 }
-// la NUEVA tarea con lo aprendido crear un boton para resta multiplicacion y division
 
-// los try catch es para pruebas de errores de backend
-
-
-// function calcular() {
-//     try {
-//       const valor1 = parseFloat(document.getElementById('valor1').value) || 0
-//       const valor2 = parseFloat(document.getElementById('valor2').value) || 0
-
-//       document.getElementById("valortotal").value = valor1 * valor2;
-    
-//     } catch (e) {}
-// }
-
-
-
-const boton2 = document.getElementById('boton2')
-const resta1 = document.getElementById('valor1')
-const resta2 = document.getElementById('valor2')
-const totalva = document.getElementById('valortotal')
 
 
 boton2.addEventListener('click', restar)
 
 
-
-
 function restar()
 {
 
-   const sum1 = resta1.value
-   const sum2 = resta2.value
+   const res1 = primerValor.value
+   const res2 = segundoValor.value
 
    let resultado
 
-   resultado = parseInt(sum1) - parseInt(sum2)
+   resultado = parseInt(res1) - parseInt(res2)
 
 
 
@@ -72,26 +53,18 @@ function restar()
 }
 
 
-const boton3 = document.getElementById('boton3')
-const multiplicar1 = document.getElementById('valor1')
-const multiplicar2 = document.getElementById('valor2')
-const totalvar = document.getElementById('valortotal')
-
 
 boton3.addEventListener('click', multiplicar)
-
-
-
 
 function multiplicar()
 {
 
-   const sum1 = multiplicar1.value
-   const sum2 = multiplicar2.value
+   const mul1 = primerValor.value
+   const mul2 = segundoValor.value
 
    let resultado
 
-   resultado = parseInt(sum1) * parseInt(sum2)
+   resultado = parseInt(mul1) * parseInt(mul2)
 
 
 
@@ -100,26 +73,17 @@ function multiplicar()
 }   
 
 
-const boton4 = document.getElementById('boton4')
-const dividir1 = document.getElementById('valor1')
-const dividir2 = document.getElementById('valor2')
-const totalvart = document.getElementById('valortotal')
-
-
 boton4.addEventListener('click', dividir)
-
-
-
 
 function dividir()
 {
 
-   const sum1 = dividir1.value
-   const sum2 = dividir2.value
+   const divi1 = primerValor.value
+   const divi2 = segundoValor.value
 
    let resultado
 
-   resultado = parseInt(sum1) / parseInt(sum2)
+   resultado = parseInt(divi1) / parseInt(divi2)
 
 
 
